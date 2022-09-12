@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	/* Condition only 'for' - imitates 'while' in other languages
+	/* Condition only 'for' - imitates 'while' in other languages. But condition is executed before code block.
 	Condition only 'for' looks like a BAD STYLE.
 	Reasons:
 	 - you can forget '++' part & get infinite loop
