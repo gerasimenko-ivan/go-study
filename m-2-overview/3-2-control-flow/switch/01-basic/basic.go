@@ -11,6 +11,7 @@ func main() {
 	switch input {
 	case "yes": // value to compare with 'tag'
 		fmt.Println("YES entered")
+		// NO NEED to use 'BREAK' in GO
 	case "no":
 		fmt.Println("NO entered")
 	default:
