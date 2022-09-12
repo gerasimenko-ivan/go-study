@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := inp.ReadLine("Enter yes or no: ")
+	input := inp.ReadLine("Enter 'yes' or 'no': ")
 
 	switch input {
 	case "yes":
