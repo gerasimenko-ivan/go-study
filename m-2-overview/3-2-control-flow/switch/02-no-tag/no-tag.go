@@ -9,7 +9,7 @@ func main() {
 	input := inp.ReadLine("Enter 'yes' or 'no' (or 'y'/'n'): ")
 
 	switch { // No tag
-	case input == "yes" || input == "y":
+	case input == "yes" || input == "y": // condition
 		fmt.Println("YES entered")
 	case input == "no" || input == "n":
 		fmt.Println("NO entered")
