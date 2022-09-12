@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	/* Condition only 'for' looks like a BAD STYLE.
 	Reasons:
 	 - you can forget '++' part & get infinite loop
