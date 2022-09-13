@@ -8,11 +8,9 @@ func main() {
 		A Grade = iota // 0, iota - auto init from 0 & +1 each const
 		B              // 1
 		C              // 2
-		D              // 3
-		F              // 4
 	)
 	myGrade := A
-	yourGrade := D
+	yourGrade := C
 	fmt.Printf("myGrade = %d, yourGrade = %d\n", myGrade, yourGrade)
 
 	const (
