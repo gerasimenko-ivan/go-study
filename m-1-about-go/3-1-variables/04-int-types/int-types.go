@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	/* usually if you declare int variable, you choose int 64 */
+
 	var integer8 int8 = -128         // -128; 127
 	var unsignedInteger8 uint8 = 255 // 0; 255
 	// (u)int 16, 32, 64
