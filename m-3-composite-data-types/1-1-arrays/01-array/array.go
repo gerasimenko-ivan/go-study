@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// fixed-length / same data-type
+	// fixed-length / same data-type / indexes from 0
 
 	// full declaration (redundant)
 	var point [3]float64 = [3]float64{1, 2, 3}
