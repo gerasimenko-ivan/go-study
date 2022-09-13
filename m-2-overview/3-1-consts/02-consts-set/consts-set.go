@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	type Grade int
 	const (
-		A Grade = iota
-		B
-		C
-		D
-		F
+		A Grade = iota // 0, iota - auto init from 0 & +1 each const
+		B              // 1
+		C              // 2
+		D              // 3
+		F              // 4
 	)
 	myGrade := A
 	yourGrade := D
