@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	// zero-value is set to uninitialized value
+	// key feature of GO
+	// for memory safety
 	var i int
 	fmt.Printf("i = '%d'\n", i) // i = '0'
 
