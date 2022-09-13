@@ -2,17 +2,21 @@ package main
 
 import "fmt"
 
+type Grade int
+
+const (
+	A Grade = iota // 0, iota - auto init from 0 & +1 each const
+	B              // 1
+	C              // 2
+)
+
 func main() {
-	type Grade int
-	const (
-		A Grade = iota // 0, iota - auto init from 0 & +1 each const
-		B              // 1
-		C              // 2
-	)
 	myGrade := A
 	yourGrade := C
 	fmt.Printf("myGrade = %d, yourGrade = %d\n", myGrade, yourGrade)
 
+	// But better:
+	// type DayOfTheWeek int
 	const (
 		Sun = iota
 		Mon
