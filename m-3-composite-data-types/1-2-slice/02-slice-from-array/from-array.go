@@ -14,7 +14,12 @@ func main() {
 	// slice len = 2, s cap = 4
 	fmt.Printf("slice len = %d, s cap = %d\n", len(slice), cap(slice))
 
-	slice[0] = 222
-	fmt.Println(slice) // output: [222 3]
-	fmt.Println(array) // array is still underlying slice, so output: [1 222 3 4 5]
+	sla1 := array[:]  // make slice from FULL array
+	fmt.Println(sla1) // [1 2 3 4 5]
+
+	sla2 := array[2:] // make slice from array: from 2-index to the end of array
+	fmt.Println(sla2) // [3 4 5]
+
+	sla3 := array[:3] // make slice from array: from the beginning of array till the 3-index (NOT included)
+	fmt.Println(sla3)
 }
