@@ -7,7 +7,10 @@ func main() {
 
 	// full declaration (redundant)
 	var point [3]float64 = [3]float64{1, 2, 3}
+	// could be simplified to:
+	var point_ = [3]float64{1, 3, 5}
 	fmt.Println(point)
+	fmt.Println(point_)
 
 	// split declaration & initialization
 	var x [5]int
