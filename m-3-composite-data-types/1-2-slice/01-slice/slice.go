@@ -3,6 +3,12 @@ package main
 import "fmt"
 
 func main() {
+	/* Three ways to create slice
+	- initialize directly (slice literal - represented below)
+	- create it after array (create array, init slice on that array)
+	- make()
+	*/
+
 	// length - real number of elements in s slice
 	// capacity - number of elements allocated in memory for slice
 	//   capacity extends by x2 (present value x2) when len > cap after adding slice elements
