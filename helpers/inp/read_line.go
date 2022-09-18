@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// ReadLine returns string entered by user
 func ReadLine(greeting string) string {
 	fmt.Print(greeting)
 	reader := bufio.NewReader(os.Stdin)
